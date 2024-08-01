@@ -1,5 +1,6 @@
 {
   "name": "tinybench-type-issues",
+  "type": "commonjs",
   "scripts": {
     "start": "tsc"
   },
