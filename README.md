@@ -1,6 +1,6 @@
 # `tinybench` type issues
 
-This is a minimal reproduction of a type issue in v2.8.0 of [`tinybench`](https://www.npmjs.com/package/tinybench).
+This is a minimal reproduction of [a TypeScript typing issue](https://github.com/tinylibs/tinybench/pull/85)) in [`tinybench@2.8.0`](https://www.npmjs.com/package/tinybench/v/2.8.0).
 
 When attempting to import `tinybench` into a CommonJS file that uses a modern TypeScript module setup (i.e., `module: NodeNext`), `tsc` emits the following error when attempting to compile it:
 
