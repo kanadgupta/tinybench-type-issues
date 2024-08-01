@@ -1,0 +1,15 @@
+{
+  "name": "tinybench-type-issues",
+  "scripts": {
+    "start": "tsc"
+  },
+  "private": true,
+  "author": "Kanad Gupta",
+  "engines": {
+    "node": "20.16.0"
+  },
+  "dependencies": {
+    "tinybench": "^2.8.0",
+    "typescript": "^5.5.4"
+  }
+}
